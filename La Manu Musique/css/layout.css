@@ -1,0 +1,18 @@
+/* sidebar et partie basse #313131
+fond dégradé vertical #000 --> #313131 */
+
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.app-top {
+    display: flex;
+    flex-wrap: wrap;
+}
+.app-bottom {
+    display: flex;
+}
+.current,
+.controls {
+   flex-grow: 1;
+}
